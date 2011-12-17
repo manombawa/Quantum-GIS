@@ -71,7 +71,7 @@ QgsExpressionBuilderWidget::QgsExpressionBuilderWidget( QWidget *parent )
   registerItem( "Operators", "NOT", " NOT " );
 
 
-  // Load the fuctions from the QgsExpression class
+  // Load the functions from the QgsExpression class
   int count = QgsExpression::functionCount();
   for ( int i = 0; i < count; i++ )
   {
