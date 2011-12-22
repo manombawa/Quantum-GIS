@@ -322,11 +322,9 @@ ENDIF (POSTGRES_FOUND)
 IF (HAVE_SPATIALITE)
   SET (QGIS_APP_SRCS ${QGIS_APP_SRCS}
     spatialite/qgsnewspatialitelayerdialog.cpp
-    spatialite/qgsspatialitesridsdialog.cpp
     )
   SET (QGIS_APP_MOC_HDRS ${QGIS_APP_MOC_HDRS}
     spatialite/qgsnewspatialitelayerdialog.h
-    spatialite/qgsspatialitesridsdialog.h
     )
 ENDIF (HAVE_SPATIALITE)
 
