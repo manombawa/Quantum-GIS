@@ -152,11 +152,6 @@ void QgsAttributeTableModel::layerDeleted()
 
 void QgsAttributeTableModel::attributeValueChanged( QgsFeatureId fid, int idx, const QVariant &value )
 {
-  if ( mFeatureMap.contains( fid ) )
-  {
-    mFeatureMap[ fid ].changeAttribute( idx, value );
-  }
-
   setData( index( idToRow( fid ), fieldCol( idx ) ), value, Qt::EditRole );
 }
 
