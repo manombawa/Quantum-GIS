@@ -20,5 +20,6 @@ high level tools for carrying out spatial analysis on vector and raster data.
 
 /** @defgroup networkanalysis QGIS network analysis library.
 
+Attention: current status library is ALPHA-version.
 The network analysis library provides high level tool for build topology and analysis it.
 */
